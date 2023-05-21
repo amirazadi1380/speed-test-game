@@ -1,0 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Shadows+Into+Light&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(45, 129, 45);
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(96, 96, 146);
+}
+.container{
+    background-color: rgb(54, 34, 34);
+    width: 570px;
+    position: relative;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 15px black;
+    
+}
+#start{
+    background-color: rgb(25, 6, 95);
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px yellow;
+}
+.end{
+    opacity: 0;
+    position: relative;
+}
+.title{
+    border-bottom: 1px dotted white;
+    width: 100%;
+    height: 100px;
+}
+#word{
+    color: red;
+}
+#input{
+    background-color: transparent;
+    height: 30px;
+    width: 50%;
+    border: 2px solid rgb(89, 89, 122);
+    font-size: 25px;
+    color: red;
+}
+.timer{
+    font-size: 35px;
+    float: left;
+    display: block;
+    margin-left: 20px;
+    color: yellow;
+}
+#next{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 43%;
+    transform: translate((-43%));
+    bottom: 5px;
+    height: 35px;
+    width: 70px;
+    border:  none;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0;
+}
+#modal{
+    width: 350px;
+    height:200px;
+    border: solid 5px blue;
+    
+}
+#myScore{
+    color: blue;
+    font-size: 30px;
+}
+#tryagain{
+    background-color: rgb(25, 6, 95);
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px yellow;
+    text-transform:capitalize;
+}
